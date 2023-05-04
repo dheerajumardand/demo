@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.seleniumhq.selenium</groupId>
-  <artifactId>selenium-java</artifactId>
+  <groupId>gtoonedrive</groupId>
+  <artifactId>gtoonedrive</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -11,16 +11,6 @@
     <version>4.8.1</version>
 </dependency>
 
-<dependency>
-
-<groupId>org.seleniumhq.selenium</groupId>
-
-<artifactId>selenium-http-jdk-client</artifactId>
-
-<version>4.5.0</version>
-
-</dependency>
-	  
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -29,7 +19,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <release>17</release>
+          <release>19</release>
         </configuration>
       </plugin>
     </plugins>
